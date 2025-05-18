@@ -5,7 +5,7 @@ variable "location" {
 
 variable "prefix" {
   description = "Prefix for the resource names"
-  default     = "precatorios"
+  default     = "precatleaks"
 }
 
 variable "az_subscription_id" {
