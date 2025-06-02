@@ -1,11 +1,16 @@
 variable "location" {
   description = "Azure region"
-  default     = "brazilsouth"
+  default     = "eastus"
 }
 
 variable "prefix" {
   description = "Prefix for the resource names"
   default     = "precatleaks"
+}
+
+variable "environment" {
+  description = "Environment tag (e.g., dev, staging, prod)"
+  default     = "dev"
 }
 
 variable "az_subscription_id" {
